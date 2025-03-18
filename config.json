@@ -1,0 +1,27 @@
+{
+    "vm": {
+        "ip": "172.25.13.145",
+        "pass": "Italdesign2025!!"
+    },
+    "application":{
+        "host":"0.0.0.0",
+        "port":8080
+    }, 
+    "qdrant":{
+        "api_key" : "FgMHxru9keRZtP5GEJPvB0vOQiQvLnoa11qnL1A9A7Bn6uQ-p23S6A", 
+        "url" : "https://47913f50-92ef-446b-9a70-568d68341bbd.europe-west3-0.gcp.cloud.qdrant.io",
+        "collection_name": "images_and_text"
+    }, 
+    "auth": {
+        "username": "admin", 
+        "password" : "admin"
+    },
+     
+    "bedrock": {
+        "model_name": "anthropic.claude-3-haiku-20240307-v1:0",
+        "embedder": "amazon.titan-embed-text-v2:0", 
+        "reranker": "cohere.rerank-v3-5:0"
+
+    }
+}
+

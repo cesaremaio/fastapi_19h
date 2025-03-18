@@ -1,0 +1,8 @@
+[0;1;32m●[0m postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (]8;;file://ip-172-25-13-145/usr/lib/systemd/system/postgresql.service/usr/lib/systemd/system/postgresql.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (exited)[0m since Wed 2025-03-12 10:06:54 UTC; 58min ago
+   Main PID: 8183 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+Mar 12 10:06:54 ip-172-25-13-145 systemd[1]: Starting postgresql.service - PostgreSQL RDBMS...
+Mar 12 10:06:54 ip-172-25-13-145 systemd[1]: Finished postgresql.service - PostgreSQL RDBMS.
